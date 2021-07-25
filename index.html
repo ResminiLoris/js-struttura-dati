@@ -8,7 +8,21 @@
     <title>Document</title>
 </head>
 <body>
+    <select id="filter">
+        <option value="all" selected>Tutte</option>
+        <option value="id">Id</option>
+        <option value="name">nome</option>
+        <option value="combinedManaCost">Mana combinato</option>
+        <option value="cardType">Tipo Carta</option>
+        <option value="subType">Sottotipo Carta</option>
+        <option value="constitution">Costituzione</option>
+        <option value="strenght">Forza</option>
+        <option value="launchCost">Costo di lancio</option>
+    </select>
+    <input type="text" id="search" placeholder="cerca..." class="hidden">
+    <button id="button">Filtra</button>
+    <hr>
     <section id="cards"></section>
-    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
 </body>
 </html>
